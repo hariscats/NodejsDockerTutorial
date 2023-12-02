@@ -5,7 +5,7 @@ This project demonstrates how to set up a simple video streaming service using N
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your system:
-- Node.js (v12 or later)
+- Node.js
 - npm (usually comes with Node.js)
 - Git
 - Docker (for containerization)
@@ -15,8 +15,8 @@ Before you begin, ensure you have the following installed on your system:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/hariscats/NodejsDockerTutorial.git
+cd NodejsDockerTutorial
 ```
 
 Navigate to the application directory:
