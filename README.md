@@ -69,5 +69,12 @@ docker login <your-registry-url> --username <your-username> --password <your-pas
 To prepare your image for upload to your private registry, tag it with the registry's URL using this command:
 
 ```bash
-docker login <your-registry-url> --username <your-username> --password <your-password>
+docker tag <existing-image> <registry-url>/<image-name>:<version>
 ```
+
+Push the tagged image with:
+
+```bash
+docker push <registry-url>/<image-name>:<version>
+```
+
