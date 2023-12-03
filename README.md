@@ -84,3 +84,23 @@ To run a container based on an image in your private registry, run the following
 docker run -d -p <host-port>:<container-port> -e <name>=<value> <registry-url>/<image-name>:<version>
 ```
 
+Verify that it's running with the following command:
+
+```bash
+docker container list --all
+```
+
+## Cleanup
+
+First stop and remove all containers:
+
+```bash
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+```
+
+Then, remove the images:
+
+```bash
+docker system prune --volumes --all
+```
