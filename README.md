@@ -78,3 +78,9 @@ Push the tagged image with:
 docker push <registry-url>/<image-name>:<version>
 ```
 
+To run a container based on an image in your private registry, run the following:
+
+```bash
+docker run -d -p <host-port>:<container-port> -e <name>=<value> <registry-url>/<image-name>:<version>
+```
+
