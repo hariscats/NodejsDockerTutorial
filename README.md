@@ -57,3 +57,13 @@ docker run -p 3000:3000 video-app
 ```
 
 The application will be accessible at the same URL as the non-containerized version.
+
+## Push to Private Container Registry
+
+To push images to your private registry, authentication is required to ensure security. Ensure you have your registry URL and login credentials from your Azure Container Registry setup. Authenticate using the following command:
+
+```bash
+docker login <your-registry-url> --username <your-username> --password <your-password>
+```
+
+
