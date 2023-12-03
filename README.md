@@ -66,4 +66,8 @@ To push images to your private registry, authentication is required to ensure se
 docker login <your-registry-url> --username <your-username> --password <your-password>
 ```
 
+To prepare your image for upload to your private registry, tag it with the registry's URL using this command:
 
+```bash
+docker login <your-registry-url> --username <your-username> --password <your-password>
+```
