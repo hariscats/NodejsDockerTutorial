@@ -6,9 +6,9 @@ This project demonstrates how to set up a simple video streaming service using N
 
 Before you begin, ensure you have the following installed on your system:
 - Node.js
-- npm (usually comes with Node.js)
+- npm
 - Git
-- Docker (for containerization)
+- Docker
 
 ## Installation
 
@@ -104,3 +104,5 @@ Then, remove the images:
 ```bash
 docker system prune --volumes --all
 ```
+
+## The End
